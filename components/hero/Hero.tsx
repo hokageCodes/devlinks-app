@@ -59,9 +59,9 @@ const Hero: React.FC = () => {
             {links.length === 0 && (
               <>
                 <div className="w-[249.53px] h-[160px] bg-gray-200"></div>
-                <h2 className="font-sans text-3xl font-bold leading-[48px] text-[#333333]">Let's get you started</h2>
+                <h2 className="font-sans text-3xl font-bold leading-[48px] text-[#333333]">Let&#39;s get you started</h2>
                 <p className="font-sans text-lg font-normal leading-[24px] text-[#737373] text-center">
-                  Use the “Add new link” button to get started. Once you have more than one link, you can reorder and edit them. We're here to help you share your profiles with everyone!
+                  Use the “Add new link” button to get started. Once you have more than one link, you can reorder and edit them. We&#39;re here to help you share your profiles with everyone!
                 </p>
               </>
             )}
