@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
         <div className="w-full h-[80%] p-10 flex flex-col items-start gap-8 text-left border-b border-gray-300">
           <h1 className="font-sans text-3xl font-bold leading-[48px] text-[#333333]">Customize your links</h1>
           <p className="font-sans text-lg font-normal leading-[24px] text-[#737373]">
-            Add/edit/remove links below and then share all your profiles with the world!
+            Add/edit/remove links below and then share all your profiles with the world
           </p>
           <button
             onClick={handleAddLink}
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                 <div className="w-[249.53px] h-[160px] bg-gray-200"></div>
                 <h2 className="font-sans text-3xl font-bold leading-[48px] text-[#333333]">Let&apos;s get you started</h2>
                 <p className="font-sans text-lg font-normal leading-[24px] text-[#737373] text-center">
-                  Use the “Add new link” button to get started. Once you have more than one link, you can reorder and edit them. We&apos;re here to help you share your profiles with everyone!
+                  Use the “Add new link” button to get started. Once you have more than one link, you can reorder and edit them. We&apos;re here to help you share your profiles with everyone
                 </p>
               </>
             )}
