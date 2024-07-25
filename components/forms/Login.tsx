@@ -34,7 +34,7 @@ const Login: React.FC = () => {
       await login(values.email, values.password);
       setSuccess(true);
       setTimeout(() => {
-        router.push('/');
+        router.push('/link');
       }, 2000); // Redirect after 2 seconds
     } catch (error) {
       console.error(error);

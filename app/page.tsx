@@ -1,7 +1,10 @@
 import CreateAccount from "@/components/forms/CreateAccount";
+import Hero from "@/components/hero/Hero";
 
 export default function Home() {
   return (
-    <h1>Hello, App</h1>
+    <>
+      <Hero />
+    </>
   );
 }

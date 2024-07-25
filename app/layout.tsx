@@ -4,6 +4,7 @@ import './globals.css';
 import { AuthProvider } from '../AuthContext';
 import ProtectedRoute from '../ProtectedRoute';
 import { ReactNode } from 'react';
+import Navbar from '@/components/navbar/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={inter.className}>
         <AuthProvider>
           <ProtectedRoute>
+            <Navbar />
             {children}
           </ProtectedRoute>
         </AuthProvider>

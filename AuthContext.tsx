@@ -35,7 +35,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       setCurrentUser(user);
       setLoading(false);
       if (user) {
-        router.push('/');
+        router.push('/link');
       } else {
         router.push('/login');
       }
