@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Hero: React.FC = () => {
   const [links, setLinks] = useState<string[]>([]);
@@ -33,7 +34,13 @@ const Hero: React.FC = () => {
             <div className="w-[100%] h-[100%] flex flex-col items-center bg-gray-100">
               {links.map((link, index) => (
                 <div key={index} className="w-[249.53px] h-[160px]">
-                  <img src="/mnt/data/Frame 260 (1).png" alt="Link content" />
+                  <Image
+                    src="/mnt/data/Frame 260 (1).png"
+                    alt="Link content"
+                    width={249}
+                    height={160}
+                    layout="responsive"
+                  />
                 </div>
               ))}
             </div>
